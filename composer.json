@@ -1,0 +1,24 @@
+{
+    "name": "mouf/html.template.menus.topribbonmenu",
+    "description": "This package contains a menu that is displayed as a ribbon at the top of the screen. The class is in charge of rendering a 'Menu' instance in HTML using the toHtml() method.",
+    "keywords": ["mouf", "menu", "topribbonmenu", "ribbon"],
+    "homepage": "https://github.com/thecodingmachine/html.template.menus.topribbonmenu",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Négrier",
+            "email": "d.negrier@thecodingmachine.com",
+            "homepage": "http://mouf-php.com"
+        }
+    ],
+    "require": {
+    	"php": ">=5.3.0",
+        "mouf/html.widgets.menu": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mouf": "src/"
+        }
+    }
+}

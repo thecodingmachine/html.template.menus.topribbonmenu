@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+	<displayName>Top Ribbon Menu</displayName>
+	<shortDescription>This package contains a menu that ribbon from the top of the screen.</shortDescription>
+	<docUrl></docUrl>
+	<logo>logo.png</logo>
+	<dependencies>
+		<dependency>
+			<group>html/widgets</group>
+			<name>menu</name>
+			<version>1.0</version>
+		</dependency>
+	</dependencies>
+	<requires>
+		<require>TopRibbonMenuRenderer.php</require>
+		<require>HtmlMenuTopRibbonHead.php</require>
+	</requires>
+	<externalComponentRequires>
+		<require>TopRibbonExternalComponent.php</require>
+	</externalComponentRequires>
+</package>
