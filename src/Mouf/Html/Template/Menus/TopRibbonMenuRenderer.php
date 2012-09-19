@@ -177,7 +177,7 @@ class TopRibbonMenuRenderer implements HtmlElementInterface {
 					
 					echo "<div class='submenu_link'>";
 					
-					$menuItemStyleIcon = $menuItem->getAdditionalStyleByType('MenuItemStyleIcon');
+					$menuItemStyleIcon = $menuItem->getAdditionalStyleByType('Mouf\\Html\\Widgets\\Menu\\MenuItemStyleIcon');
 					echo '<a ';
 					if ($menuItem->isActive()) {
 						echo 'class="active" ';
