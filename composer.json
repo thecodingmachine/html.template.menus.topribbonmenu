@@ -3,7 +3,7 @@
     "description": "This package contains a menu that is displayed as a ribbon at the top of the screen. The class is in charge of rendering a 'Menu' instance in HTML using the toHtml() method.",
     "keywords": ["mouf", "menu", "topribbonmenu", "ribbon"],
     "homepage": "https://github.com/thecodingmachine/html.template.menus.topribbonmenu",
-    "type": "library",
+    "type": "mouf-library",
     "license": "MIT",
     "authors": [
         {
